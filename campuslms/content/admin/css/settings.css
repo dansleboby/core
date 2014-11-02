@@ -1,0 +1,46 @@
+h3{
+	clear:both;
+	font-size:20px;
+	padding:1em 0 0.5em 0;
+}
+
+label{
+	float:left;
+	width:230px;
+	overflow:hidden;
+	margin-right:20px;
+	clear:left;
+	padding-left:20px;
+}
+
+input, select{
+	float:left;
+	width:480px;
+	height:20px;
+}
+
+span.small{
+	font-size:0.7em;
+}
+
+.sp-replacer{
+	width:474px;
+	float:left;
+	height:14px;
+	padding:3px;
+}
+
+.sp-replacer .sp-preview{
+	width:455px;
+	height:12px;
+}
+
+.sp-input-container, .sp-initial-disabled .sp-input-container, body.admin.settings .sp-initial-disabled .sp-input-container{
+	width:63px;
+	float:left;
+	margin:6px 0 0 0;
+}
+
+.sp-input-container input{
+	background:#FFF;
+}

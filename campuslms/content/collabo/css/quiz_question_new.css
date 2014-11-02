@@ -1,0 +1,15 @@
+div.reponse{
+	width:700px;
+	height:24px;
+	clear:both;
+}
+
+div.reponse input.reponse{
+	width:640px;
+	float:left;
+}
+
+div.reponse input.points{
+	width:40px;
+	float:right;
+}

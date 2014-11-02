@@ -1,0 +1,203 @@
+html, body { 
+    width:100%;
+    height: 100%;
+}
+
+body{
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+	font-family: "Open Sans", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	letter-spacing: -1px;
+	color: #FFF;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	overflow: auto;
+}
+
+
+input, button, textarea{
+    -webkit-appearance: none;
+    border-radius:0;
+}
+
+body>section{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:360px;
+	height:160px;
+	background:#EEEEEE;
+	background:rgba(255,255,255,0.8);
+	padding:20px;
+	margin:-70px 0 0 -200px;
+	box-shadow: 0 50px 180px 50px rgba(255,255,255,0.35);
+	z-index:3;
+}
+
+body>section>header{
+	position:absolute;
+	top:-30px;
+	left:0;
+	width:100%;
+	height:30px;
+}
+
+body>section>header>.logintab{
+	background:#EEEEEE;
+	background:rgba(255,255,255,0.8);
+	height:21px;
+	padding:7px 10px 2px 10px;
+	width:175px;
+	margin-left:10px;
+	float:left;
+	font-weight:bold;
+    -webkit-transition:background-color 0.2s, color 0.2s;
+    transition:background-color 0.2s, color 0.2s;
+}
+
+body>section>header>.logintab.inactive{
+	background:transparent;
+}
+
+body>section>header>.logintab.inactive:hover{
+	cursor:pointer;
+	background:#EEEEEE;
+	background:rgba(255,255,255,0.4);
+}
+
+
+body>section>header>.logintab:first-child{
+	margin:0;
+}
+
+
+
+body>header{
+	background-image: url(../images/sidelogo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:100%;
+	height:73px;
+	position:absolute;
+	top:50%;
+	margin-top:-200px;
+	z-index:2;
+}
+
+#fx{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:url(../images/degradeLogin.png) top right no-repeat;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input.password, input.text{
+	border:3px solid #FFFFFF;
+	background:#FFFFFF;
+	background:rgba(255,255,255,0.7);
+	width:344px;
+	height:30px;
+	padding:5px;
+	line-height:30px;
+	font-size:20px;
+	margin-bottom:15px;
+}
+
+input.password:hover, input.text:hover, input.password:focus, input.text:focus{
+	background:#FFFFFF;
+}
+
+.inputcontainer{
+	float:right;
+	border:1px solid white;
+	margin:0 0 15px 0;
+	width:50%;
+	display:block;
+}
+
+input.submit{
+	display:block;
+	border:0;
+	border-radius:0;
+	border:2px solid #FFFFFF;
+	background:#444444;
+	background:rgba(0,0,0,0.5);
+	height:40px;
+	padding:5px;
+	line-height:30px;
+	font-size:20px;
+	color:#FFFFFF;
+	overflow:visible;
+	width:100%;
+	margin:0;
+}
+
+input.submit:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
+
+body>header>h1{
+	display:block;
+	margin:0;
+	padding:0;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
+.error{
+	font-weight:bold;
+	color:#000000;
+}
+#err{
+	font-weight:bold;
+	color:#000000;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:150px;
+	padding:10px 20px;
+	line-height:1em;
+	font-size:14px;
+}
+
+footer{
+	display:block !important;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	line-height:1.5em;
+	color:#EEEEEE;
+	color:rgba(255,255,255,0.5);
+	font-size:12px;
+	text-align:center;
+}
+
+
+
+/** MOBILE FIX **/
+body.mobile>section{
+	width:260px;
+	margin:-70px 0 0 -150px;
+}
+
+body.mobile input.password, body.mobile input.text{
+	width:244px;
+}
+
+body.mobile>section>header>.logintab{
+	width:125px;
+}

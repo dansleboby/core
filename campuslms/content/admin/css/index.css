@@ -1,0 +1,39 @@
+.fixedwidth{
+	width:720px;
+}
+
+.half{
+	width:350px;
+	float:left;
+}
+
+.half.first{
+	margin-right:20px;
+}
+
+.half table{
+	width:100%;
+}
+
+table.white{
+	background:#FFFFFF;
+	color:#555555;
+	border-top:1px solid #555555;
+}
+
+table.white tr, table.white td, table.white th{
+	border-bottom:1px solid #555555;
+}
+
+table.white td{
+	height:50px;
+}
+
+table.white a{
+	color:#555555;
+}
+
+.small{
+	font-size:0.6em;
+	display:block;
+}

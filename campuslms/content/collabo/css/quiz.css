@@ -1,0 +1,121 @@
+body.collabo.quiz section article{
+	padding-right:15px;
+	width:700px;
+	height:auto;
+	float:none;
+	border:none;
+	overflow:visible;
+	margin:0;
+	padding:0 15px 0 0;
+	cursor:default;
+	color:inherit;
+	background:transparent;
+}
+
+body.collabo.quiz section h1{
+	font-size:14px;
+	font-weight:700;
+	margin:0;
+	padding:0;
+}
+
+body.collabo.quiz section h2{
+	font-size:30px;
+	font-weight:600;
+	letter-spacing:-2px;
+	margin:-3px 0 0.5em 0;
+	padding:0;
+	height:40px;
+	line-height:40px;
+}
+
+hr.qtop{
+	margin:2em 0 1em 0;
+}
+
+.quiz form#theform hr{
+	margin:1em 0;
+}
+
+.qContainer{
+	position:relative;
+}
+
+.qContainer>a.color_text{
+	position:absolute;
+	top:75px;
+	left:0;
+}
+
+.qContainer>div{
+	float:left;
+	width:615px;
+}
+
+body.collabo.quiz h3{
+	float:left;
+	font-weight:normal;
+	font-size:4em;
+	float:left;
+	margin:0;
+	padding:0;
+	width:85px;
+	overflow:hidden;
+	line-height:0.8em;
+}
+
+body.collabo.quiz h3+div{
+	float:left;
+	width:600px;
+/*	margin:1.5em 0 1.5em 15px;*/
+}
+
+body.collabo.quiz h3+div>img{
+	max-width:35%;
+	margin:0.5em 10px 0 0;
+	float:left;
+}
+
+body.collabo.quiz hr{
+	clear:both;
+}
+
+body.collabo.quiz label{
+	margin:0.3em 0;
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+#menuBar div.reponse, .menuBar div.reponse{
+	width:700px;
+	height:24px;
+	clear:both;
+}
+
+#menuBar div.reponse input, .menuBar div.reponse input{
+	clear:none;
+}
+
+#menuBar div.reponse input.reponse, .menuBar div.reponse input.reponse{
+	width:600px;
+	float:left;
+}
+
+#menuBar div.reponse input.points, .menuBar div.reponse input.points{
+	width:40px;
+	float:right;
+}
+
+#menuBar div.reponse select, .menuBar div.reponse select{
+	width:80px;
+	float:right;
+}

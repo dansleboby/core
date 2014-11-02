@@ -1,0 +1,99 @@
+.table{
+	float:left;
+	width:700px;
+	margin-bottom:20px;
+}
+
+.titlebar{
+	border-top:1px solid #666;
+	margin:20px 0 0 0;
+	padding:20px 0 0 30px;
+	height:30px;
+	position:relative;
+}
+
+.titlebar:before{
+	content:"";
+	position:absolute;
+	top:26px;
+	left:0px;
+	width:16px;
+	height:16px;
+	background:#555555 url(../../../template/default/images/downarrow.png) no-repeat;
+	-webkit-background-clip: padding-box;
+	opacity:0.5;
+}
+
+.titlebar.active:before{
+	opacity:1;
+}
+
+.titlebar .nom{
+	float:left;
+	width:570px;
+	line-height:10px;
+}
+
+.titlebar .nom h3{
+	height:20px;
+	line-height:20px;
+}
+
+.titlebar .note{
+	line-height:30px;
+	width:100px;
+	text-align:right;
+	float:right;
+}
+
+.titlebar:hover{
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.table .content{
+	display:none;
+	width:700px;
+}
+
+.table table{
+	width:700px;
+}
+
+.small{
+	font-size:0.6em;
+}
+
+th .small{
+	display:block;
+}
+
+
+/**
+	MOBILE
+**/
+
+
+body.mobile .table{
+	width:100%;
+}
+
+body.mobile .table .content{
+	width:100%;
+}
+
+body.mobile .table table{
+	width:100%;
+}
+
+body.mobile .titlebar .nom{
+	float:left;
+	width:auto;
+	padding-right:80px;
+}
+
+body.mobile .titlebar .note{
+	position:absolute;
+	top:20px;
+	right:0;
+}

@@ -1,0 +1,477 @@
+.topbox{
+	width:100%;height:300px;color:#FFF;text-align:center;line-height:300px;margin-bottom:1em;position:relative;
+}
+
+.topbox .container{
+
+}
+
+.topbox.withborder{
+	border:2px solid black;
+	overflow:auto;
+}
+
+body.enseignant>section{
+	padding-bottom:0;
+}
+
+body section table.datebox{
+	background:transparent;
+	line-height:1em;
+	margin:0;
+}
+
+table.datebox thead{
+	background:rgba(0,0,0,0.5);
+}
+
+
+table.datebox .cell{
+	width:100px;
+	text-align:center;
+}
+
+
+table.thead{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+table div{
+	width:125px;
+}
+
+table div.large{
+	width:250px;
+}
+
+table.datebox td:nth-child(odd), table.datebox td:nth-child(odd){
+	background:rgba(0,0,0,0.2);
+}
+
+table.datebox tbody{
+	position:absolute;
+	top:25px;
+	left:0;
+	bottom:0;
+	display:block;
+	overflow-y:auto;
+}
+
+
+/*
+
+
+*/
+/*
+table.fixed{
+	display:block;
+	width:100%;
+	overflow:auto;
+}
+
+table.fixed tbody{
+
+}
+
+table.fixed tbody td{
+	text-align:center;
+	vertical-align: middle;
+}
+
+table.fixed tbody tr th{
+	left:0;
+	background:rgba(255,255,255,0.05);
+}
+
+table.fixed tbody tr:nth-child(odd) th{
+	background:rgba(0,0,0,0.05);
+}
+*/
+
+.topbox ul{
+	list-style:none;
+	display:block;
+	margin:0;
+	padding:0;
+/*	position:absolute;
+	top:0;
+	right:0;*/
+	float:right;
+	width:20%;
+	min-width:200px;
+	border-left:3px solid white;
+	height:100%;
+}
+
+.topbox ul li{
+	width:100%;
+	height:98px;
+	line-height:98px;
+	border-top:3px solid white;
+}
+
+.topbox ul li a{
+	color:#FFFFFF;
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.topbox ul li a:hover{
+	text-decoration:none;
+}
+
+.topbox ul li:first-child{
+	border-top:none;
+}
+
+.topbox ul li:hover{
+	cursor:pointer;
+	background:rgba(255,255,255,0.1);
+}
+
+
+
+
+
+
+
+
+
+
+.small{
+	font-size:0.6em;
+}
+
+/*
+	CHECK IF THERE IS SOMETHING THAT GOES THERE ?!?
+*/
+
+.enseignant.loaded>section .topzone table{
+	width:100%;
+}
+
+
+.enseignant.loaded>section header{
+	background:#FFFFFF;
+	margin:-40px -40px 0px -40px;
+	padding:20px 40px 10px 40px;
+/*	border-bottom:1px solid black;*/
+}
+
+.enseignant.loaded>section .topzone{
+	width:50%;
+	height:340px;
+	float:left;
+	border-bottom:1px solid black;
+	margin-bottom:10px;
+	overflow:auto;
+	background:#FFFFFF;
+	margin-top:90px;
+}
+
+.enseignant.loaded>section .topzone>div{
+	margin:0 20px 0 40px;
+}
+
+.enseignant.loaded>section .topzone.zone2>div{
+	margin:0 40px 0 20px;
+}
+
+
+.topzone .empty{
+	height:280px;
+	line-height:280px;
+	text-align:center;
+	margin-top:16px;
+	background:#EEE;
+}
+
+
+
+
+
+/* NEW UI */
+
+.notecontainer{
+	margin:0 -40px;
+	padding:20px 40px 40px 40px;
+	overflow-x:auto;
+}
+
+.notecontainer.over{
+	display:none;
+	position:fixed;
+	bottom:0;
+	left:240px;
+	right:0;
+	bottom:0;
+	margin:0;
+	top:10%;
+	height:auto;
+	padding:20px 40px 40px 40px;
+	overflow:auto;
+	background:#555555;
+}
+
+.notecontainer th{
+	text-align:center;
+}
+
+.notecontainer table{
+	background:#DDDDDD;
+	background:rgba(255,255,255,0.5);
+	color:#555555;
+	border:#555555;
+	min-width:100%;
+}
+
+.notecontainer table tbody th{
+	min-width:200px;
+}
+
+.notecontainer table tbody td{
+	width:60px;
+	min-width:60px;
+	max-width:60px;
+	text-align:center;
+	vertical-align: middle;
+}
+
+.notecontainer a{
+	color:inherit;
+}
+
+.notecontainer table div{
+	width:auto;
+}
+
+.notecontainer table th{
+	background:#555555;
+	color:#ffffff;
+}
+
+.notecontainer table td{
+	background:#FFFFFF;
+}f
+
+.notecontainer table tr:nth-child(odd) td{
+	background:#EEEEEE;
+}
+
+.notecontainer table th span.small{
+	padding:0 1px;
+}
+
+.notecontainer tbody th div{
+	width:200px;
+}
+
+.notecontainer span.grey{
+	opacity:0.2;
+}
+
+.notecontainer .empty{
+	background:#FFFFFF;
+	background:rgba(255,255,255,0.2);
+	width:100%;
+	height:280px;
+	line-height:280px;
+	text-align:center;
+	margin-top:25px;
+	color:#FFF;
+}
+
+/*Toggles*/
+
+.notecontainer h3{
+	float:left;
+}
+
+/*
+	White table
+*/
+
+table.white{
+	background:#FFFFFF;
+	color:#555555;
+	border-top:1px solid #555555;
+}
+
+table.white tr, table.white td, table.white th{
+	border-bottom:1px solid #555555;
+}
+
+table.white a{
+	color:#555555;
+}
+
+
+/* Test UI */
+
+body>section{
+	position:absolute;
+	top:0;
+	left:240px;
+	right:0;
+	bottom:0;
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:0;
+}
+
+body>section>header{
+	position:absolute;
+	top:30px;
+	left:40px;
+	width:50%;
+}
+
+ul#options{
+	top:10px;
+}
+/*
+.enseignant.loaded>section .topzone.zonePerformance{
+	position:absolute;
+	top:70px;
+	left:0;
+	bottom:50%;
+	right:50%;
+	margin:0 10px 10px 40px;
+	padding:0;
+}
+
+.enseignant.loaded>section .topzone.zoneQuoideneuf{
+	position:absolute;
+	top:70px;
+	left:50%;
+	right:0;
+	bottom:50%;
+	margin:0 40px 10px 10px;
+	padding:0;
+}
+
+.enseignant.loaded>section .topzone{
+	width:auto;
+	height:auto;
+	border-bottom:0;
+}
+
+.enseignant.loaded>section .topzone table div.large{
+	width:150px;
+}
+
+.enseignant.loaded>section .topzone.zoneQuoideneuf table{
+	margin:1em 0 0 0;
+}*/
+
+.notecontainer{
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	bottom:0;
+	width:auto;
+	height:auto;
+	margin:0;
+}
+
+#lateralscroll{
+/*	width:100%;*/
+	overflow-x:auto;
+	margin:0 -40px;
+	padding:0 40px;
+}
+
+#lateralscroll table{
+	padding:0;
+	margin:0 40px 0 0;
+}
+
+.radioButton{
+	background:#DDDDDD;
+	background:rgba(255,255,255,0.5);
+}
+
+.radioButton.active, .radioButton:hover{
+	background:#FFFFFF;
+}
+
+
+td.pct{
+	margin:0;
+	padding:0;
+	width:250px;
+	height:50px;
+	position:relative;
+}
+
+div.completion{
+	position:absolute;
+	top:-1px;
+	left:0;
+	width:0%;
+	height:100%;
+	background:#555555;
+	opacity:0.2;
+}
+
+div.star{
+	width:250px;
+	height:50px;
+	line-height:20px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+th div.nom{
+	width:60px;
+	height:100px;
+	position:relative;
+	margin-top:5px;
+}
+
+th div.nom>span{
+	width:90px;
+	height:60px;
+	line-height:20px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-30px -45px;
+	transform:rotate(-90deg);
+	transform-origin:center center;
+	-ms-transform:rotate(-90deg);
+	-ms-transform-origin:center center;
+	-webkit-transform:rotate(-90deg);
+	-webkit-transform-origin:center center;
+	font-size:14px;
+}
+
+th div.nom>span em{
+	opacity:0.7;
+}
+
+tr.unread th, tr.unread td{
+	font-weight:bold;
+}
+
+.statsContainer{
+	clear:both;
+	padding:20px 40px 40px 40px;
+}
+
+table.color_border tr, table.color_border td, table.color_border th{
+	border-color:inherit;
+}

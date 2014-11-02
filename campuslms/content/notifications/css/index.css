@@ -1,0 +1,64 @@
+ul#notifications{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ul#notifications li{
+	color:#555555;
+	float:left;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background:url(../../../template/default/images/note.png);
+	opacity:0.4;
+	font-size:14px;
+}
+
+ul#notifications li.message{
+	background:url(../../../template/default/images/bulle.png);
+}
+
+ul#notifications li.new{
+	opacity:0.8;
+}
+
+ul#notifications li.compose{
+	opacity:0.8;
+	font-weight:bold;
+	font-size:20px;
+}
+
+ul#notifications li:hover{
+	opacity:1;
+	cursor:pointer;
+}
+
+
+ul#notifications li>span{
+	width:50px;
+	height:50px;
+	text-align:center;
+}
+
+ul#notifications li>label{
+	display:none;
+}
+
+ul#notifications li.note>span{
+	display:block;
+	height: 20px;
+	font-size:10px;
+	line-height: 9px;
+	color:#666666;
+}
+
+ul#notifications li.note>span:first-child{
+	margin: 5px 15px 1px 15px;
+	padding: 0 0 2px 0;
+	border-bottom: 1px solid #555555;
+	line-height: 30px;
+	width: 20px;
+	font-size:14px;
+	color:#444444;
+}

@@ -1,0 +1,210 @@
+body.cours.lecon section article{
+	padding-right:15px;
+	width:700px;
+	height:auto;
+	float:none;
+	border:none;
+	overflow:visible;
+	margin:0;
+	padding:0 15px 0 0;
+	cursor:default;
+	color:inherit;
+	background:transparent;
+}
+
+body.cours.lecon>section>article>header{
+	padding:0;
+	width:auto;
+	height:auto;
+	position:relative;
+	overflow:visible;font-size:14px;
+	text-transform: none;
+}
+
+body.cours.lecon section h1{
+	font-size:14px;
+	font-weight:700;
+	margin:0;
+	padding:0;
+}
+
+body.cours.lecon section h2{
+	font-size:30px;
+	font-weight:600;
+	letter-spacing:-2px;
+	margin:-3px 0 0.5em 0;
+	padding:0;
+	height:40px;
+	line-height:40px;
+}
+
+body.cours.lecon section address{
+	float:right;
+	margin-left:1em;
+	font-weight:600;
+	letter-spacing:-2px;
+	margin:-3px 0 0.5em 0;
+	padding:10px 0 0 0;
+	height:30px;
+	line-height:30px;
+	font-size:18px;
+	font-style:normal;
+	font-weight:normal;
+}
+
+body.cours.lecon section address strong{
+	display:inline;
+	font-size:18px;
+	font-weight:bold;
+}
+
+body.cours.lecon section section{
+	width:710px;
+	clear:both;
+	margin-top:15px;
+}
+
+body.cours.lecon section.video{
+	width:700px;
+	height:402px;
+	background:#555555;
+	position:relative;
+	padding:0;
+}
+
+	body.cours.lecon section.video img{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index:0;
+	}
+
+	body.cours.lecon section.video .embed{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background:#333333;
+		z-index:0;
+	}
+
+	body.cours.lecon section.video .embed iframe{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+
+	}
+
+
+
+body.cours.lecon section.video .btn{
+	float:none;
+	width:668px;
+	margin:-20px 10px 10px 10px;
+	display:block;
+	text-align:center;
+	background:rgba(255,255,255,0.1);
+	position:absolute;
+	top:196px;
+	left:0;
+}
+
+body.cours.lecon section.video .btn:hover{
+	background:rgba(255,255,255,0.2);
+}
+
+
+body.cours.lecon section.video.withCtn .btn{
+	background:#444444;
+	background:rgba(30,30,30,0.8);
+	display:none;
+}
+
+body.cours.lecon section.video.withCtn:hover .btn{
+	display:block;
+}
+
+body.cours.lecon section.video.withCtn .btn:hover{
+	background:#222222;
+	background:rgba(30,30,30,0.9);
+	color:#DDDDDD;
+	opacity:1;
+}
+
+body.cours.lecon section header{
+	display:block;
+	font-size:15px;
+	font-weight:600;
+	margin-bottom:5px;
+}
+
+body.cours.lecon section header h3{
+	margin:0;
+	padding:0;
+	font-size:20px;
+	font-weight:600;
+}
+body.cours.lecon section header p{
+	margin:0;
+	padding:0;
+}
+
+.btn .done{
+	float:left;
+	width:25px;
+	height:44px;
+	background-image: url(../images/checkmark.png); 
+	background-image: -webkit-image-set(url(../images/checkmark.png) 1x, url(../images/checkmark2x.png) 2x);
+	margin-right:5px;
+}
+
+#videoFrame{
+	width:700px;
+	height:402px;
+}
+
+/**
+	MOBILE
+**/
+
+body.mobile.cours.lecon section{
+	padding-right:10px;
+}
+
+body.mobile.cours.lecon section article{
+	width:100%;
+	padding:0;
+}
+
+body.mobile.cours.lecon section section{
+	width:100%;
+}
+
+body.mobile.cours.lecon section.video{
+	width:auto;
+	height:auto;
+	margin:0 -10px;
+	height:320px;
+	height:56.25vw;
+}
+
+body.mobile #videoFrame{
+	width:100%;
+	height:100%;
+}
+
+body.mobile.cours.lecon>section>article>header{
+	height:auto;
+}
+
+body.mobile.cours.lecon section h2{
+	font-size:19px;
+	line-height:19px;
+	overflow:visible;
+	height:auto;
+}
