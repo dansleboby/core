@@ -495,6 +495,8 @@ CREATE TABLE `users` (
   `profile` text NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=59 DEFAULT CHARSET=utf8 AUTO_INCREMENT=59 ;
+INSERT INTO `users` (`id`, `id_cie`, `usercode`, `prenom`, `nom`, `email`, `pass`, `skype`, `niveau`, `date`, `profile`) VALUES
+(59, 0, 'admin', 'Admin', '', '', 'a96053805f3f01b004e7211f6d3ecbc61c15fe70', '', 'sadmin', '2015-01-15 06:23:17', '');
 
 -- --------------------------------------------------------
 
