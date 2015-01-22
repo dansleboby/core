@@ -1,15 +1,15 @@
+php_flag display_startup_errors on
+php_flag display_errors on
+php_flag html_errors on
+
+Header set Cache-Control: "private, pre-check=0, post-check=0, max-age=0"
+Header set Expires: 0
+Header set Pragma: no-cache
+
 <IfModule mod_rewrite.c>
-    <IfModule mod_negotiation.c>
-        Options -MultiViews
-    </IfModule>
-
-    RewriteEngine On
-
-    # Redirect Trailing Slashes...
-    RewriteRule ^(.*)/$ /$1 [L,R=301]
-
-    # Handle Front Controller...
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^(.*) index.php?data=$1 [L]
+	RewriteEngine on
+	Options +FollowSymlinks
+	RewriteRule ^([^./-]{2,2})/([^.]+)/?$	index.php?langue=$1&data=$2 [L]
+	RewriteRule ^([^./]{2,2})/?$	index.php?langue=$1 [L]
+	RewriteRule ^([^.]+)/?$	index.php?data=$1 [L]
 </IfModule>
